@@ -294,4 +294,87 @@ gap: 2rem;
     text-transform: uppercase;
 }
 
+/*Depoimentos*/
+#testmonials{
+    display: flex;
+    align-items: center;
+}
 
+#testmonial-information{
+    padding: 3rem;
+}
+
+.author{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 1rem;
+}
+
+.author .author-name{
+    color: var(--main-color);
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.author .author-job{
+    color: var(--main-color);
+}
+
+.author img{
+    width: 100px;
+    height: 100px;
+}
+
+/*Colaboradores*/
+#team{
+    position: relative;
+    margin-bottom: 2rem;
+    z-index: 2;
+}
+
+#team h2{
+    font-size: 3rem;
+    text-align: center;
+    max-width: 1000px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+}
+
+#team h2 span{
+    color: var(--main-color);
+}
+
+#team .square{
+    background-color: var(--terciary-color);
+    width: 100px;
+    height: 100px;
+    left: 50%;
+    margin-left: -50px;
+    top: -25px;
+}
+
+.employees{
+    display: flex;
+    gap: 2rem;
+    padding: 2rem;
+    text-align: center;
+}
+
+.employee-name{
+    color: var(--main-color);
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-weight: 0.5rem;
+}
+
+/*Contato*/
+
+#contact{
+   background-color: var(--main-color);
+   gap: 0;
+    padding-bottom: 5rem;
+}
